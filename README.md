@@ -18,8 +18,7 @@ Table before search criteria
 /Users/NurseZ/Desktop/Screen Shot 2021-05-08 at 1.16.24 PM.png
 
 Table after date entered
-/Users/NurseZ/Desktop//Screen Shot 2021-05-08 at 1.16.59 PM.png
-
+file:///Users/NurseZ/Desktop/Screen%20Shot%202021-05-08%20at%201.16.59%20PM.png
 
 #### Summary
 
