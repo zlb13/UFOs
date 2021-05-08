@@ -14,7 +14,7 @@ To conduct a search first input your search criteria within any of the input box
 
 * Example search by date
 
-Table before search criteria
+Table before search criteria inputed
 
 Screen Shot 2021-05-08 at 1.16.24 PM![image](https://user-images.githubusercontent.com/78943308/117549774-46dd4580-b00a-11eb-865c-36701f15f979.png)
 
