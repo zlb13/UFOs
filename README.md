@@ -19,6 +19,8 @@ Table before search criteria
 
 Table after date entered
 file:///Users/NurseZ/Desktop/Screen%20Shot%202021-05-08%20at%201.16.59%20PM.png
+Screen Shot 2021-05-08 at 1.16.59 PM![image](https://user-images.githubusercontent.com/78943308/117549745-12698980-b00a-11eb-8d17-ded6870e370a.png)
+
 
 #### Summary
 
