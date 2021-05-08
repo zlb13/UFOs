@@ -32,7 +32,8 @@ function buildTable(data) {
 function updateFilters() {
 
     // 4a. Save the element that was changed as a variable.
-    let changedElement = d3.select("input");
+    let changedElement = d3.select(this);
+    console.log(changedElement);
 
     // 4b. Save the value that was changed as a variable.
     let elementValue = changedElement.property("value");
@@ -64,22 +65,11 @@ function updateFilters() {
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
     let keys = Object.keys(filters);
-    for (let i = 0; i < keys.length; i++) { console.log(keys[i]); }
-       
-    if (date) {
-      filteredData = filteredData.filter(row =>row.datetime === date);
-    }
-    if (city) {
-      filteredData = filteredData.filter(row =>row.city === city);
-    }
-    if (state) {
-      filteredData = filteredData.filter(row =>row.state === state);
-    }
-    if (country) {
-      filteredData = filteredData.filter(row =>row.country === country);
-    }
-    if (shape) {
-      filteredData = filteredData.filter(row =>row.shape === shape);
+    for (let i = 0; i < keys.length; i++) { console.log(keys[i],filters[keys[i]]); 
+      console.log(filters);
+    
+      filteredData = filteredData.filter(row =>row[keys[i]] === filters[keys[i]]);
+    
     }  
       
     
