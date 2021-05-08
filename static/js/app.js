@@ -26,8 +26,7 @@ function buildTable(data) {
 // 1. Create a variatble to keep track of all the filters as an object.
 
    var filters = {};
-     
-   
+       
 
 // 3. Use this function to update the filters. 
 function updateFilters() {
@@ -64,7 +63,9 @@ function updateFilters() {
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
-    filters.forEach((filters) => {
+    let keys = Object.keys(filters);
+    for (let i = 0; i < keys.length; i++) { console.log(keys[i]); }
+       
     if (date) {
       filteredData = filteredData.filter(row =>row.datetime === date);
     }
@@ -81,7 +82,7 @@ function updateFilters() {
       filteredData = filteredData.filter(row =>row.shape === shape);
     }  
       
-    });
+    
   
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData);
